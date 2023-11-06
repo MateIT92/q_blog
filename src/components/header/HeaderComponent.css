@@ -1,0 +1,12 @@
+.layout-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px;
+
+  .conditional-link h1 {
+    float: left;
+    max-width: 100px;
+  }
+}

@@ -1,0 +1,37 @@
+.list {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.posts-list-item {
+  border: 2px solid black;
+  background-color: #cccccc;
+  border-radius: 6px;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+.post-item {
+  padding: 12px;
+  position: relative;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+
+  .link-wrap .list-item-content.elipsis {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+}
+.list-item {
+  flex: 1;
+  text-align: center;
+  word-wrap: normal;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 8px;
+}

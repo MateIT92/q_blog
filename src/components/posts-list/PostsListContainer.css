@@ -1,0 +1,26 @@
+.posts-container {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.comments-button {
+  border-bottom: none;
+  border-right: none;
+  border-left: none;
+  border-bottom-left-radius: 6px;
+  border-bottom-right-radius: 6px;
+  cursor: pointer;
+  padding: 4px;
+}
+
+.posts-next-button {
+  border: 2px solid black;
+  padding: 4px;
+  cursor: pointer;
+  border-radius: 6px;
+}
+.results {
+  margin-bottom: 8px;
+  font-size: large;
+}

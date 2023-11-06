@@ -1,0 +1,24 @@
+.search-input {
+  position: relative;
+  max-width: 300px;
+  flex: 1;
+  > input {
+    min-height: 24px;
+    &:focus {
+      outline: none;
+    }
+  }
+}
+
+.search-submit {
+  position: absolute;
+  right: 0;
+  top: 0px;
+  height: 100%;
+  width: 50px;
+
+  > button {
+    min-height: 24px;
+    cursor: pointer;
+  }
+}

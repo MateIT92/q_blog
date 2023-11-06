@@ -1,0 +1,15 @@
+* {
+  margin: auto;
+  padding: 0;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+body {
+  background-color: #333333;
+  font-family: "Open Sans", sans-serif;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
